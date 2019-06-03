@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+    <title>About Me</title>
+
+</head>
+
+<body>
+    
+    <div class="col-md-12" id="row">
+        <div class="col-md-6">
+            <h1>Military</h1>
+            <p>
+                I served in the United States Air Force for 6 years as 2W1X1 "Aircraft Armament Systems Technician". 
+                I was a 7 level Staff Sergeant when I got out which gave me the opportunity to work with good number of awesome people, who I miss dearly.
+            </p>
+
+        </div>
+
+        <div class="col-md-6">
+            <img src="https://via.placeholder.com/400x300">
+        </div>
+    </div>
+
+    <div class="col-md-12" id="row">
+            
+            <div class="col-md-6">
+                    <img src="https://via.placeholder.com/400x300">
+                </div>
+        
+            <div class="col-md-6">
+                <h1>School</h1>
+                <p>
+                    I studied at the Art Institute of Philadelphia where I earned my Bachelors Degree in Graphic Design. Here I got refine a lot of skills 
+                    that I use daily. This place has helped me immensely in moving towards my goal of being a successful designer.
+                </p>
+    
+            </div>
+    
+            
+    </div>
+    
+</body>
+
+</html>
