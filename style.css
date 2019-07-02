@@ -1,0 +1,237 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 180%;
+    color: #666666;
+    text-align: center;
+
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 60px;
+    box-sizing: border-box;
+    transition: .5s;
+    z-index: 5;
+    opacity: 1;
+}
+
+nav.black{
+    background: rgba(0,0,0,.8);
+    height: 80px;
+    padding: 10px 50px;
+}
+
+nav .logo{
+    float: left;
+}
+
+nav .logo img {
+    height: 80px;
+    transition: .5s;
+}
+
+nav.black .logo img {
+    height: 60px;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-top: 25px;
+    line-height: none;
+    font-size: 18px;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 1s;
+    text-shadow: 0 0 10px #000;
+}
+
+/* nav ul li a{
+    line-height: none;
+    font-size: 18px;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 1s;
+    text-shadow: 0 0 10px #000;
+} */
+
+/* nav.black ul li a{
+    color: #fff;
+    line-height: 20px;
+} */
+
+nav.black ul li{
+    color: #fff;
+    line-height: 20px;
+
+}
+
+nav ul li.active,
+nav ul li:hover{
+    color: orange;
+}
+
+.parallax1 {
+    background: url("images/sign.jpg");
+    min-height: 60%;
+}
+
+.parallax2 {
+    background: url("images/ink_man.png");
+    min-height: 60%;
+}
+
+.parallax3 {
+    background: url("images/me.jpg");
+    min-height: 40%;
+
+}
+
+.parallax4 {
+    background: url("images/nasty_face.png");
+    min-height: 60%;
+}
+
+.parallax5 {
+    background: url("https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/ApplicationPageBlock/60613/5ade3133098a6c5f33c37241c6a9a0f021fc2d29._QL80_TTD_.jpg");
+    min-height: 50%;
+}
+
+.parallax6 {
+    background: url("https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/ApplicationPageBlock/60613/5ade3133098a6c5f33c37241c6a9a0f021fc2d29._QL80_TTD_.jpg");
+    min-height: 100%;
+}
+
+.parallax1, .parallax2, .parallax3, 
+.parallax4, .parallax4, .parallax6 {
+    position: relative;
+    opacity: .75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading {
+    position: absolute;
+    color: #fff;
+    font-size: 550%;
+    top: 38%;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+}
+
+.heading2 {
+    position: absolute;
+    color: #fff;
+    font-size: 150%;
+    top: 50%;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+}
+
+.heading-sm {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    color: #fff;
+    font-size: 250%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #000;
+}
+
+.two-col {
+    float: left;
+    width: 42%;
+    padding: 0 4%;
+    text-align: center;
+}
+section {
+    overflow: auto;
+    padding: 10px 30px;
+}
+
+.dark {
+    overflow: auto;
+    padding: 50px 80px;
+    background-color:#262626
+    ;
+    color: #f2f2f2;
+}
+
+@media (max-width: 900px){
+    nav ul li {
+        font-size: 12px;
+    }
+    .heading {
+        font-size: 250%;
+    }
+}
+
+@media (max-width: 600px){
+    .heading {
+        font-size: 250%;
+    }
+    .heading-sm {
+        font-size: 180%;
+    }
+    .two-col {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    nav ul li {
+        font-size: 8px;
+    }
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.images img {
+    width: 25%;
+    padding: 10px 10px 10px 10px;
+}
+
+.images img:hover {
+    outline: solid 2px #00cc00;
+   
+
+}
+
+strong {
+    color: #00cc00;
+}
+
+.resume img {
+    width: 65%;
+}
+
+i {
+    padding: 10px 5px 10px 5px;
+    color: #00cc00
+}
