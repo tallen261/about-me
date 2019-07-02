@@ -1,49 +1,89 @@
-<!DOCTYPE html>
+<!DOCTYPE html>  
 <html lang="en">
 <head>
     <!--CSS-->
     <link rel="stylesheet" href="style.css">
     <!--Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/ce207d019c.js"></script>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, intial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie-edge">
-
-    <title>About Me</title>
-
-</head>
-
-<body>
     
-    <div class="col-md-12" id="military">
-        <div class="col-md-6">
-            <h1>Military</h1>
-            <p>
-                I served in the United States Air Force for 6 years as 2W1X1 "Aircraft Armament Systems Technician". 
-                I was a 7 level Staff Sergeant when I got out which gave me the opportunity to work with good number of awesome people, who I miss dearly.
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>TJ Allen</title>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="images/ronin.jpg" alt="logo">
+        </div>
+        <div class="menu-icon">
+            <i class="fa fa-bars"></i>
+        </div>
+        <ul>
+            <li>Well...</li>
+            <li>Experience</li>
+            <li>Resume</li>
+            <li>Web Presence</li>
+        </ul>
+    </nav>
+
+    <div class="parallax1">
+        <div class="heading">Hello...my name is <strong>TJ</strong></div>
+     </div>
+
+     <section>
+         <h1>Well....</h1>
+         <div class="me">
+             <p>
+                 I'm a Philadelphia native who loves to draw, design, and create so it's really no suprise that I went to school for Graphic Design. Mashing colors, drawing circles and squares so they look something I do for fun all the time. My hobbies include martial arts instruction and coaching gymnastics in addition to sculpting, painting, airbrushing, and digital drawing.
+                 I really like to keep myself busy so mush so, it doesn't feel like there are enough hours in a day. As the climate for design is ever-changing, the demand for a skilled developer is on the rise.
+                 Coincidentally, I was presented with a program called "<strong>Vets Who Code</strong>" that teaches military veterans a wide variety of these skills. Using what I hope to learn from this program, I looking to become a more rounded designer and find a place in the world where I can continue to create to my heart's content. I have really started taking a liking to front end developing which also has me constantly thinking of ways to things differently. 
             </p>
+         </div>
+     </section>
 
-        </div>
+     <section class="dark">
+         <h2>Experience</h2>
+         <p>
+                I do have some experience with basic html and css, but once again I am looking to get better because I feel like these skills can elevate me to the next level. Here are a couple of examples of some sites that I built as personal projects.
+         </p>
+         <div class="images">
+         <a href="images/antman.png" target="blank"><img src="images/antman.png"></a>
+         <a href="images/halo.png" target="blank"><img src="images/halo.png"></a>
+         <a href="images/cat.png" target="blank"><img src="images/cat.png"></a>
 
-        <div class="col-md-6">
-            <img src="https://via.placeholder.com/400x300">
-        </div>
-    </div>
+         </div>
+     </section>
 
-    <div class="col-md-12" id="school">
-            
-            <div class="col-md-6">
-                    <img src="https://via.placeholder.com/400x300">
-                </div>
+     <div class="parallax3">
+
+     </div>
+     <section class="dark">
+         <div class="resume">
+             <h2>Resume</h2>
+            <a href="images/resume.jpg" target="blank"><img src="images/resume.jpg"></a>
+         </div>
+     </section>
+
+     <div class="parallax4">
+       <h2>Web Presence</h2>
+       <div>
+            <a href="https://www.facebook.com/alltyron/" target="blank"><i class="fab fa-facebook-square fa-5x"></i></a>
+            <a href="https://www.linkedin.com/in/tyron-allen-designs/" target="blank"><i class="fab fa-linkedin fa-5x"></i></a>
+            <a href="https://github.com/tallen261" target="blank"><i class="fab fa-github-alt fa-5x"></i></a>
+            <a href="https://twitter.com/tjallen261?lang=en" target="blank"><i class="fab fa-twitter-square fa-5x"></i></a>
+       </div>
+  
+     </div>
+
+
         
-            <div class="col-md-6">
-                <h1>School</h1>
-            </div>
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 </body>
+</head>
+</html>   
